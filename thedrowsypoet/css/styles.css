@@ -1,0 +1,173 @@
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+header {background-image: url("../images/tumblr_oyyjfyCYM91w7wyh2o1_400.gif"); background-attachment:fixed;}
+header {padding: 30px; width: 100%; color:#004d40;}
+body {background-color: #f4f6f6;}
+	
+/* navigation */
+#nav-main {
+  background-color: yellow; 
+  margin-left:424px;
+}
+
+#nav-main ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f6f6;
+  overflow: auto;
+  margin: auto;
+}
+
+#nav-main ul li {
+  background-color: red;
+  display: inline;
+  float:left;
+}
+
+#nav-main ul li a {
+  display: block;
+  background-color: #f4f6f6;
+  color: gray;
+  padding: 5px 10px;
+  text-decoration: none;
+}
+
+#nav-main ul li a:hover {
+  background-color: #004d40;
+  color: #f4f6f6;
+}
+
+/* layout */
+#page {max-width:1200px; margin:auto;}
+#content {overflow:auto;}
+#sidebar {float:left; width:25%; background-color:#f4f6f6; border: 2px solid #eaeded;}
+#main {float:left; width:75%; background-color:#d5dbdb; font-family:helvetica;}
+footer {clear:both; background-color:#f4f6f6; color: gray;}
+h1 {text-align:center;
+	margin:auto;
+	padding:25px;
+	font-family:'Amatic SC', cursive;
+	font-size: 60px;
+	background-color:rgb(244,246,246);
+	opacity: 0.6;
+	width:350px;
+	}
+
+p, ul, ol, dl, li, footer, table {font-family:'Nunito', sans-serif;}
+.h2title {text-align:left;
+		font-size:45px;
+		width:300px;
+		background-color: #d5dbdb;}
+.h2title2 {text-align:left;
+		font-size:45px;
+		color: #641e16;}
+.background {border-radius:15px; border:3px solid gray;}
+h3, h2 {font-family:'Amatic SC', cursive; color:#004d40; font-size:35px; margin:5px; padding:5px;}
+/* end of layout */
+
+/* table */
+table {border: 3px solid gray;}
+td, th {padding:5px;}
+.table {color: #641e16; text-align:left; background-color:#f4f6f6;}
+.data {background-color: #f4f6f6;}
+/* end table */
+img {max-width:100%; height:auto;}
+
+/* form css */
+.contact {
+	border-bottom:1px solid #efefef;
+	margin:10px;
+	padding-bottom:10px;
+	width:260px;}
+.title {
+	float:left;
+	width:100px;
+	text-align:right;
+	padding-right:10px;
+	font-family:'Nunito', sans-serif;}
+#submit {margin-left:80px;}
+.poll {
+	padding:5px;
+	margin:5px;
+	font-family:helvetica;
+	font-size:15px;
+	line-height:1.5em;
+	background-color:#eaeded;
+	color:gray;}
+.checkbox {font-family:'Nunito', sans-serif;}
+/* end of form */
+	
+/* quotes */
+
+.quotes {color:#641e16; font-size:25px; padding: 10px; font-style:italic;}
+.quotes-10 {color:#641e16; font-size:17px; font-style:italic; margin:10px; padding:5px;}
+/* end quotes */
+
+
+.clear {clear:left;}
+
+/* book reviews */
+.reviews {border: 1px solid #eaeded; padding: 10px; margin: 15px;}
+/* end book reviews */
+
+/* lists */
+ul {list-style-type:circle;}
+ol {list-style-type: decimal; font-size: 20px;}
+li {color:black;}
+dl {color:#641e16;}
+/* end lists */ 
+
+/* sidebar css */
+.social {padding:3px; margin:10px;}
+.poll-line-height {line-height:30px;}
+/* end sidebar */
+
+/* images */
+.images {border:3px solid black; padding:0px;margin:10px;}
+#main-page {float:left;}
+#main-page2 {float:left;}
+#main-page3 {float:left;}
+#about-image {float:left;}
+#newsletter {float:right;
+	opacity:0.65;}
+/* end images */
+
+/* horizontal rule */
+
+hr.style-two {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));}
+/* end horizontal rule */
+
+
+/*Button CSS */
+ .button {
+   border: 4px solid #7d8080;
+   background: #f4f6f6;
+   padding: 8px 16px;
+   border-radius: 0px;
+   color: #7d8080;
+   font-size: 19px;
+   font-family: helvetica, serif;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+.button:hover {
+   border: 4px solid #f4f6f6;
+   background: #004d40;
+   color: #f4f6f6;
+   }
+.button:active {
+   border: 4px solid #f4f6f6;
+   background: #f4f6f6;
+   color: #7d8080;
+   }
+#contact-about {margin-left:600px;}
+/*end button */
